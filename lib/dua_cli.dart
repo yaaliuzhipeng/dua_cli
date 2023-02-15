@@ -35,8 +35,8 @@ DuaStackNavigationPage buildMaterialStackNavigationPage(String name, Widget page
 }
 
 ///Auto-Generate:buildCupertinoStackNavigationPage
-DuaStackNavigationPage buildCupertinoStackNavigationPage(String name, Widget page) {
-  return DuaStackNavigationPage(name, CupertinoPage(name: name, child: page));
+DuaStackNavigationPage buildCupertinoStackNavigationPage(String name, Widget page, {bool? fullscreenDialog}) {
+  return DuaStackNavigationPage(name, CupertinoPage(name: name, child: page, fullscreenDialog: fullscreenDialog ?? false));
 }
 
 ///Auto-Generate:NavigationPages

@@ -1,4 +1,4 @@
-import 'package:dua_cli/dua_cli.dart' as dua_cli;
+import '../lib/dua_cli.dart' as dua_cli;
 import 'package:dcli/dcli.dart';
 
 void main(List<String> arguments) {
